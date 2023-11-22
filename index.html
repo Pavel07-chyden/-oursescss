@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="uk">
+<div class=""></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Inter+Tight:wght@500;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Roboto:wght@500;700&family=Yeseva+One&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#">
+        <img class="logo__img" src="images/logo.png" alt="" />
+      </a>
+      <nav class="menu header__menu">
+        <button class="menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="menu__list header__menu-list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Про нас</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Каталог</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Команда</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Отзывы</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Курсы</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Контакт</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="phone" href="tel:+4565789876">+45 65 78 98 76</a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top section">
+      <div class="container top__inner">
+        <div class="top__content">
+          <h3 class="top__title">Создайте атмосферу уюта и гармонии!</h3>
+          <p class="top__text">
+            Создайте особую атмосферу в своем доме с нашей экологически
+            чистой и качественной продукцией из 100% натурального соевого
+            воска.
+          </p>
+          <button class="top__buy">Купить</button>
+        </div>
+        <picture class="top__img">
+          <source srcset="images/top-s.png" media="(max-width:360px)" />
+          <source srcset="images/top-m.png" media="(max-width:481px)" />
+          <img class="top__img-l" src="images/top-l.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container about__inner">
+        <div class="about__content">
+          <h2 class="about__title title">О нас</h2>
+          <p class="about__text">
+            Богдан создатель бренда не всегда заинтересован в изготовлении
+            разнообразных вещей на дому. Он регулярно экспериментировал с
+            разными материалами и инструментами, попробовав свои силы во
+            многих отраслях, включая изготовление свечей.
+          </p>
+          <p class="about__text">
+            Сосновый воск изготавливается из соевых бобов, сращиваемых в Дании,
+            и этот вид воска является экологически чистым и безопасным для
+            здоровья.
+          </p>
+        </div>
+        <ul class="about__list section__decor
+        ">
+          <li class="about__item">
+            <img class="about__item-img about__item-img--1" src="images/about-1.jpg" alt="" />
+            <p class="about__item-text">Наслаждайтесь моментом</p>
+          </li>
+          <li class="about__item">
+            <img class="about__item-img about__item-img--2" src="images/about-2.jpg" alt="" />
+            <p class="about__item-text">Создайте любимую атмосферу</p>
+          </li>
+          <li class="about__item">
+            <img class="about__item-img about__item-img--3" src="images/about-3.jpg" alt="" />
+            <p class="about__item-text">Изготовлены с любовью</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class='products section'>
+      <div class='container section__inner'>
+        <div class='products__descr 
+        section__descr '>
+          <h2 class="products__title title">Наши товары</h2>
+          <p class="products__text section__text">
+            Мы используем только самые лучшие качественные материалы: соевый воск, восковые красители,
+            высококачественные
+            ароматические масла и хлопчатобумажные фитильцы. Оттенки свеч очень гармонично сочетаются с ароматом,
+            создавая
+            незабываемую атмосферу в вашем доме.
+          </p>
+        </div>
+        <div class='products__content section__contnent-descr section--decor'>
+          <div class="products__item">
+            <img class="products__item-img" src='images/product-1.jpg' alt='' />
+            <p class='products__item-price'>10$</p>
+            <h4 class='products__item-title'>"Сердечко любви"</h4>
+            <p class='products__item-text'>Запах: нежный аромат розы и ванили.
+              Для чего: для атмосферы романтического настроения</p>
+            <button class='button'>Купить</button>
+          </div>
+          <div class="products__item">
+            <img class="products__item-img" src='images/product-2.jpg' alt='' />
+            <p class='products__item-price'>20$</p>
+            <h4 class='products__item-title'>"Вихрь любви"</h4>
+            <p class='products__item-text'>Запах: нежный аромат лаванды.
+              Для чего: для создания атмосферы уюта</p>
+            <button class='button'>Купить</button>
+          </div>
+          <div class="products__item">
+            <img class="products__item-img" src='images/product-3.jpg' alt='' />
+            <p class='products__item-price'>10$</p>
+            <h4 class='products__item-title'>"Радуга"</h4>
+            <p class='products__item-text'>Запах: Свежий аромат лайма.
+              Зачем: для энергии и свежести в помещении.</p>
+            <button class='button'>Купить</button>
+          </div>
+          <div class="products__item">
+            <img class="products__item-img" src='images/product-4.jpg' alt='' />
+            <p class='products__item-price'>20$</p>
+            <h4 class='products__item-title'>"Женское обаяние"</h4>
+            <p class='products__item-text'>Запах: нежный аромат лаванды и фрезии. Для чего: для комфорта и уюта.</p>
+            <button class='button'>Купить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='steps section'>
+      <div class='container section__inner'>
+        <div class='steps__descr section__descr'>
+          <h2 class='steps__title title'>
+            Этапы создания свечей
+          </h2>
+          <p class='steps__text section__text'>
+            Создание свечи из соевого воска может состоять из следующих этапов:
+          </p>
+        </div>
+        <ol class='steps__list section__contnent-descr section--decor'>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>Подготовка материалов: мелкие фрагменты соевого воска, фитиль для свечи,
+              ароматизаторы, красители и другие
+              дополнительные материалы.</p>
+            <img class='steps__item-img' src='images/s1.jpg' alt='' />
+          </li>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>Подготовка формы: выбор формы для свечи и подготовка ее к наполнению воском.
+            </p>
+            <img class='steps__item-img' src='images/s2.jpg' alt='' />
+          </li>
+          <li class='steps__item steps__item--even'>
+            <img class='steps__item-img' src='images/s3.jpg' alt='' />
+            <p class='steps__item-text'>
+              Приготовление воска: расплавление соевого воска в плавильном устройстве до нужной температуры. Добавление
+              ароматизаторов
+              и красителей при необходимости.
+            </p>
+          </li>
+          <li class='steps__item steps__item--even'>
+            <img class='steps__item-img' src='images/s4.jpg' alt='' />
+            <p class='steps__item-text'>
+              Подготовка фитиля: вставка фитиля в форму и зафиксирование его так, чтобы он был равномерно напряжен.
+            </p>
+          </li>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>Подготовка материалов: мелкие фрагменты соевого воска, фитиль для свечи,
+              ароматизаторы, красители и другие
+              дополнительные материалы.</p>
+            <img class='steps__item-img' src='images/s5.jpg' alt='' />
+          </li>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>
+              Наполнение формы: воск налить в форму, пока она не заполнится полностью. Ждать, пока он утвердится.
+            </p>
+            <img class='steps__item-img' src='images/s6.jpg' alt='' />
+          </li>
+          <li class='steps__item steps__item--even'>
+            <img class='steps__item-img' src='images/s7.jpg' alt='' />
+            <p class='steps__item-text'>
+              Приготовление воска: расплавление соевого воска в плавильном устройстве до нужной температуры. Добавление
+              ароматизаторов
+              и красителей при необходимости.
+            </p>
+          </li>
+          <li class='steps__item steps__item--even'>
+            <img class='steps__item-img' src='images/s8.jpg' alt='' />
+            <p class='steps__item-text'>
+              Подготовка фитиля: вставка фитиля в форму и зафиксирование его так, чтобы он был равномерно напряжен.
+            </p>
+          </li>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>Подготовка материалов: мелкие фрагменты соевого воска, фитиль для свечи,
+              ароматизаторы, красители и другие
+              дополнительные материалы.</p>
+            <img class='steps__item-img' src='images/s9.jpg' alt='' />
+          </li>
+          <li class='steps__item steps__item--odd'>
+            <p class='steps__item-text'>Наполнение формы: воск налить в форму, пока она не заполнится полностью. Ждать,
+              пока он утвердится.</p>
+            <img class='steps__item--img' src='images/s10.jpg' alt='' />
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class='courses section'>
+      <div class='container section__inner'>
+        <div class='section__descr'>
+          <h2 class='title'>
+            Наши курсы </h2>
+          <p class='section__text'>
+            Наши курсы дозволяют создать первый крок в новой карьере или полюбить знание в своей галузе, развиться как
+            профессионал,
+            а также покрасить свою жизнь.
+          </p>
+        </div>
+        <div class='products__content courses__content section__contnent-descr section--decor'>
+          <div class="products__item courses__item">
+            <img class="products__item-img" src='images/cours-1.jpg' alt='' />
+            <h4 class='products__item-title'>Основы изготовления свечей</h4>
+            <p class='products__item-text'>Будем обучать основам изготовления свечей из разных материалов.</p>
+            <button class='button'>Купите курс</button>
+          </div>
+          <div class="products__item courses__item">
+            <img class="products__item-img" src='images/cours-2.jpg' alt='' />
+            <h4 class='products__item-title'>Искусство ароматерапии</h4>
+            <p class='products__item-text'>Будем изучать искусство ароматерапии и изготовление свечей с разными
+              ароматами.</p>
+            <button class='button'>Купите курс</button>
+          </div>
+        </div>
+    </section>
+    <section class='team section'>
+      <div class='container section__inner'>
+        <div class='section__descr'>
+          <h2 class='title'>
+            Наши преподаватели </h2>
+          <p class='section__text'>
+            Эти люди работают вместе, чтобы создать курсы для вас, которые помогут вам начать собственный бизнес или
+            хобби.
+          </p>
+        </div>
+        <div class='team__content  section__contnent-descr'>
+          <div class='team__item'>
+            <img class='team__img' src='images/team-1.jpg' alt='' />
+            <div class='team__item--box'>
+              <p class='team__item-name'>Преподаватель Богдан</p>
+              <p class='team__item-descr'>Имеет опыт преподавания и работы 4 года</p>
+            </div>
+          </div>
+          <div class='team__item'>
+            <img class='team__img' src='images/team-2.jpg' alt='' />
+            <div class='team__item--box'>
+              <p class='team__item-name'>Преподаватель Галина</p>
+              <p class='team__item-descr'>Обучает сфере дизайна и декорирования</p>
+            </div>
+          </div>
+          <div class='team__item'>
+            <img class='team__img' src='images/team-3.jpg' alt='' />
+            <div class='team__item--box'>
+              <p class='team__item-name'>Преподаватель Анна</p>
+              <p class='team__item-descr'>Имеет опыт преподавания и работы 6 лет</p>
+            </div>
+          </div>
+          <div class='team__item'>
+            <img class='team__img' src='images/team-4.jpg' alt='' />
+            <div class='team__item--box'>
+              <p class='team__item-name'>Маркетолог Ольга</p>
+              <p class='team__item-descr'>Поможет вам с рекламой</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='feedback section'>
+      <div class='container feedback__inner section__inner'>
+        <div class='feedback__descr section__descr'>
+          <h2 class='title'>
+            Отзывы от клиентов
+          </h2>
+          <p class='section__text'>
+            Наши покупатели имеют разный возраст, статус, занятия и интересы, но у них есть одна общая черта – они
+            стремятся к
+            гармонии и обретают радость в маленьких радостях жизни, которые создают атмосферу уюта и гармонии в их
+            доме.
+          </p>
+        </div>
+        <div class='feedback__content section--decor'>
+          <div class="feedback__slider  ">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class='feedback__item'>
+                  <div class='feedback__item-video'>
+                    <img class='feedback__item-img' src='images/slid.jpg' alt=''>
+                    <button class='feedback__item-videobtn'>
+                      <img src='images/btn.svg' alt=''>
+                    </button>
+                  </div>
+                  <div class='feedback__item-content'>
+                    <a class='feedback__item-sociallink' href='#'>
+                      <img src='images/instagram.svg' alt=''>
+                    </a>
+                    <p class='feedback__item-name'>
+                      Иван Пилипенко
+                    </p>
+                    <p class='feedback__item-text'>
+                      Я заказал свечу в форме сердечка в День Святого Валентина для моей
+                      девушки и она была просто
+                      невероятна! Запах был очень
+                      приятным и романтичным, а форма сердечка была совершенной для этого праздника. Моя девушка была
+                      очень
+                      довольна подарком,
+                      и я точно закажу еще свеч от этого сайта!
+                    </p>
+                    <button class='button feedback__item-btn'>Купить товар</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <div class='feedback__item'>
+                  <div class='feedback__item-video'>
+                    <img class='feedback__item-img' src='images/slid.jpg' alt=''>
+                    <button class='feedback__item-videobtn'>
+                      <img src='images/btn.svg' alt=''>
+                    </button>
+                  </div>
+                  <div class='feedback__item-content'>
+                    <a class='feedback__item-sociallink' href='#'>
+                      <img src='images/instagram.svg' alt=''>
+                    </a>
+                    <p class='feedback__item-name'>
+                      Иван Пилипенко
+                    </p>
+                    <p class='feedback__item-text'>
+                      Я заказал свечу в форме сердечка в День Святого Валентина для моей
+                      девушки и она была просто
+                      невероятна! Запах был очень
+                      приятным и романтичным, а форма сердечка была совершенной для этого праздника. Моя девушка была
+                      очень
+                      довольна подарком,
+                      и я точно закажу еще свеч от этого сайта!
+                    </p>
+                    <button class='button feedback__item-btn'>Купить товар</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class='feedback__item'>
+                  <div class='feedback__item-video'>
+                    <img class='feedback__item-img' src='images/slid.jpg' alt=''>
+                    <button class='feedback__item-videobtn'>
+                      <img src='images/btn.svg' alt=''>
+                    </button>
+                  </div>
+                  <div class='feedback__item-content'>
+                    <a class='feedback__item-sociallink' href='#'>
+                      <img src='images/instagram.svg' alt=''>
+                    </a>
+                    <p class='feedback__item-name'>
+                      Иван Пилипенко
+                    </p>
+                    <p class='feedback__item-text'>
+                      Я заказал свечу в форме сердечка в День Святого Валентина для моей
+                      девушки и она была просто
+                      невероятна! Запах был очень
+                      приятным и романтичным, а форма сердечка была совершенной для этого праздника. Моя девушка была
+                      очень
+                      довольна подарком,
+                      и я точно закажу еще свеч от этого сайта!
+                    </p>
+                    <button class='button feedback__item-btn'>Купить товар</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class='feedback__item'>
+                  <div class='feedback__item-video'>
+                    <img class='feedback__item-img' src='images/slid.jpg' alt=''>
+                    <button class='feedback__item-videobtn'>
+                      <img src='images/btn.svg' alt=''>
+                    </button>
+                  </div>
+                  <div class='feedback__item-content'>
+                    <a class='feedback__item-sociallink' href='#'>
+                      <img src='images/instagram.svg' alt=''>
+                    </a>
+                    <p class='feedback__item-name'>
+                      Иван Пилипенко
+                    </p>
+                    <p class='feedback__item-text'>
+                      Я заказал свечу в форме сердечка в День Святого Валентина для моей
+                      девушки и она была просто
+                      невероятна! Запах был очень
+                      приятным и романтичным, а форма сердечка была совершенной для этого праздника. Моя девушка была
+                      очень
+                      довольна подарком,
+                      и я точно закажу еще свеч от этого сайта!
+                    </p>
+                    <button class='button feedback__item-btn'>Купить товар</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='certificates section'>
+      <div class='container section__inner'>
+        <div class='certificates__descr section__descr'>
+          <h2 class='title'>
+            Сертификаты
+            качества
+          </h2>
+          <p class='section__text'>
+            Сертификаты обеспечивают доверие и уверенность для наших клиентов.
+          </p>
+        </div>
+        <div class='certificates__content section--decor'>
+          <div class="certificates__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src='images/cert-1.jpg' alt=>
+              </div>
+              <div class="swiper-slide">
+                <img src='images/cert-2.jpg' alt=>
+              </div>
+              <div class="swiper-slide">
+                <img src='images/cert-3.jpg' alt=>
+              </div>
+              <div class="swiper-slide">
+                <img src='images/cert-3.jpg' alt=>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='questions section'>
+      <div class='container section__inner'>
+        <div class='section__descr'>
+          <h2 class='title'>
+            Часто задаваемые вопросы </h2>
+        </div>
+        <div class='questions__content'>
+          <div class='accordion'>
+
+            <div class='accordion__item'>
+              <button class='accordion__title'>Какие запахи доступны для свечей?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Как долго горят свечи?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Можно ли сделать заказ на индивидуальный дизайн свечи?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Какие варианты доставки?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Как оплачивать заказ?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Какая цена на курс?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class='accordion__item'>
+              <button class='accordion__title'>Есть ли сертификат на курс?</button>
+              <div class='accordion__text'>
+                <ol>
+                  <li>
+                    Ваниль – теплый, сладкий и уютный аромат, напоминающий о домашнем уюте.
+                  </li>
+                  <li>
+                    Лаванда – приятный, успокаивающий и релаксирующий запах, помогающий снять стресс и напряжение.
+                  </li>
+                  <li>
+                    Розовый грейпфрут – свежий, фруктовый и энергичный аромат, который помогает поднять настроение и
+                    взбодрить.
+                  </li>
+                  <li>
+                    Кедр – древесный, земной и маскулинный аромат, придающий ощущение стабильности и надежности.
+                  </li>
+                  <li>
+                    Яблоко и корица – теплый и уютный аромат, напоминающий о зимних праздниках и домашних условиях.
+                  </li>
+                </ol>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='promo'>
+      <div class='container promo__inner'>
+        <p class='promo__text'>Покупайте больше, экономьте больше</p>
+        <a class='promo__link' href='#'>В каталог</a>
+
+      </div>
+    </section>
+    <section class='contacts'>
+      <div class='container  contacts__inner'>
+        <form class='form' action=''>
+          <p class='form__title'>
+            Подпишись на наши акции
+          </p>
+          <input class='form__input' type="text" placeholder='Имя'>
+          <input class='form__input' type="email" placeholder='email'>
+          <button class='form__btn' type='submit'>Подписаться</button>
+        </form>
+        <img class='contacts__img' src='images/contacts.jpg' alt=''>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="logo" href="#">
+        <img class="logo__img" src="images/logo.png" alt="" />
+      </a>
+      <nav class="menu footer__menu">
+        <ul class="menu__list footer__menu-list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Про нас</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Каталог</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Отзывы</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Команда</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Курсы</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Контакт</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <a href="tel:+4565789876">+45 65 78 98 76</a>
+        <a class="email" href="mailto:candelsCandels@gmail.com">candelsCandels@gmail.com</a>
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/instagram.svg" alt="" />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/linkedin.svg" alt="" />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/youtube.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
